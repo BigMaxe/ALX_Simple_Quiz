@@ -8,7 +8,7 @@ function checkAnswer() {
         return;
     }
 
-    const userAnswer = selected.ariaValueMax;
+    const userAnswer = selected.value;
 
     if (userAnswer === correctAnswer) {
         feedback.textContent = "Correct! Well done.";
